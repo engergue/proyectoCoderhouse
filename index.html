@@ -11,7 +11,50 @@
     <body>
         <!-- START HEADER -->
         <header>
-            <nav class="navbar navbar-expand-lg bg-white">
+            <nav class="navbar bg-white">
+                <div class="container-fluid">
+                    <div class="logo-custom">
+                        <a class="navbar-brand" href="index.html"><img src="./images/logo.png" alt="Logo Familia Guedez P."></a>
+                    </div>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                        <div class="offcanvas-header">
+                            <a class="navbar-brand logo-menu" href="index.html"><img src="./images/logo.png" alt="Logo Familia Guedez P."></a>
+                            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                        
+                        </div>
+                        <div class="offcanvas-body">
+                            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="pages/engelberth-euclides.html">Engel E</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="pages/ana-daniela.html">Ana D</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="pages/engelberth-daniel.html">Engel D</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="pages/ana-cecilia.html">Ana C</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="pages/luz-alicia.html">Luz A</a>
+                                </li>
+                                
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+
+
+
+            <!-- <nav class="navbar navbar-expand-lg bg-white">
                 <div class="container">
                     <div class="logo-custom">
                         <a class="navbar-brand" href="index.html"><img src="./images/logo.png" alt="Logo Familia Guedez P."></a>
@@ -35,7 +78,7 @@
                         </div>
                     </div>
                 </div>
-            </nav>
+            </nav> -->
         </header>
         <!-- END HEADER -->
 
@@ -113,82 +156,55 @@
                         </div>
 
                     </div>
-                  </div>
-                
-                <!-- <div class="cards-container">
 
-                    <div class="card-custom">
-                        <div class="card-custom__img">
-                            <img src="./images/engel.jpg" alt="">
+                    <div class="row cards-container">
+                        <div class="col-12 col-md-6 col-xl-3">
+                            <div class="card-custom">
+                                <div class="card-custom__img">
+                                    <img src="./images/engel-daniel.jpg" alt="">
+                                </div>
+                                <div class="card-custom__info">
+                                    <h3>Engelberth D.</h3>
+                                    <h4>Edad: 14 años</h4>
+                                </div>
+                                <div class="card-custom__button">
+                                    <a href="pages/engelberth-daniel.html" class="btn-card-custom">Mas sobre mí</a>
+                                </div>
+                            </div>
                         </div>
-                        <div class="card-custom__info">
-                            <h3>Engelberth E.</h3>
-                            <h4>Edad: 34 años</h4>
+
+                        <div class="col-12 col-md-6 col-xl-3">
+                            <div class="card-custom">
+                                <div class="card-custom__img">
+                                    <img src="./images/ana-ceci.jpg" alt="">
+                                </div>
+                                <div class="card-custom__info">
+                                    <h3>Ana C.</h3>
+                                    <h4>Edad: 07 años</h4>
+                                </div>
+                                <div class="card-custom__button">
+                                    <a href="pages/ana-cecilia.html" class="btn-card-custom">Mas sobre mí</a>
+                                </div>
+                            </div>
                         </div>
-                        <div class="card-custom__button">
-                            <a href="pages/engelberth-euclides.html" class="btn-card-custom">Mas sobre mí</a>
+
+                        <div class="col-12 col-md-6 col-xl-3">
+                            <div class="card-custom">
+                                <div class="card-custom__img">
+                                    <img src="./images/luz.jpg" alt="">
+                                </div>
+                                <div class="card-custom__info">
+                                    <h3>Luz A.</h3>
+                                    <h4>Edad: 36 años</h4>
+                                </div>
+                                <div class="card-custom__button">
+                                    <a href="pages/luz-alicia.html" class="btn-card-custom">Mas sobre mí</a>
+                                </div>
+                            </div>
                         </div>
+
                     </div>
-
-                    <div class="card">
-                        <div class="card-custom__img">
-                            <img src="./images/ana-dani.jpg" alt="">
-                        </div>
-                        <div class="card-custom__info">
-                            <h3>Ana D.</h3>
-                            <h4>Edad: 36 años</h4>
-                        </div>
-                        <div class="card-custom__button">
-                            <a href="pages/ana-daniela.html" class="btn-card-custom">Mas sobre mí</a>
-                        </div>
-                        
-                        
-                    </div>
-
-                </div> -->
-
-                <div class="cards">
-                    <div class="card">
-                        <div class="card__img">
-                            <img src="./images/engel-daniel.jpg" alt="">
-                        </div>
-                        <div class="card__info">
-                            <h3>Engelberth D.</h3>
-                            <h4>Edad: 14 años</h4>
-                        </div>
-                        <div class="card__button">
-                            <a href="pages/engelberth-daniel.html" class="btn-card">Mas sobre mí</a>
-                        </div>
-                    </div>
-
-                    <div class="card">
-                        <div class="card__img">
-                            <img src="./images/ana-ceci.jpg" alt="">
-                        </div>
-                        <div class="card__info">
-                            <h3>Ana C.</h3>
-                            <h4>Edad: 07 años</h4>
-                        </div>
-                        <div class="card__button">
-                            <a href="pages/ana-cecilia.html" class="btn-card">Mas sobre mí</a>
-                        </div>
-                    </div>
-
-                    <div class="card">
-                        <div class="card__img">
-                            <img src="./images/luz.jpg" alt="">
-                        </div>
-                        <div class="card__info">
-                            <h3>Luz A.</h3>
-                            <h4>Edad: 36 años</h4>
-                        </div>
-                        <div class="card__button">
-                            <a href="pages/luz-alicia.html" class="btn-card">Mas sobre mí</a>
-                        </div>
-                    </div>
-
-                </div>
-
+                </div>              
             </section>
         </main>
         <!-- END MAIN -->

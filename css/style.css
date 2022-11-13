@@ -13,6 +13,8 @@ a{
     text-decoration: none;
 }
 
+/* HEADER */
+
 header{
     display: flex;
     flex-direction: row;
@@ -65,11 +67,11 @@ header ul li{
     color: #fff;
 }
 
-
-
 #offcanvasNavbar{
     background: linear-gradient(180deg, rgba(0,91,151,1) 0%, rgba(63,169,245,1) 100%);
 }
+
+/* BANNER PRINCIPAL - HOME */
 
 #banner{
     width: 100%;
@@ -78,6 +80,8 @@ header ul li{
 #banner img{
     width: 100%;
 }
+
+/* SECCION NUESTRA FAMILIA - HOVER */
 
 #nuestra-familia{
     display: flex;
@@ -125,6 +129,8 @@ header ul li{
     letter-spacing: 1;
 }
 
+/* SECCION CONOCENOS - HOME */
+
 #conocenos{
     display: block;
     width: 100%;
@@ -171,6 +177,25 @@ header ul li{
     margin: 15px 0;
 }
 
+/* ANIMACION CARD */
+.card-custom:hover{
+    animation-name: moveCard;
+    animation-timing-function: ease-in;
+    animation-duration: 1200ms;
+}
+
+@keyframes moveCard {
+    0% {
+      top: 0;
+    }
+    50% {
+      top: -10px;
+    }
+    100%{
+        top: 0;
+    }
+  }
+
 .card-custom__img img{
     width: 100%;
     border-radius: 10px 10px 0 0 ;
@@ -213,6 +238,8 @@ header ul li{
     color:#000
 }
 
+/* FOOTER */
+
 footer{
     display: block;
     padding: 30px 0;
@@ -229,6 +256,8 @@ footer p{
     text-align: center;
     font-size: 14px;
 }
+
+
 
 
 /**** PAGINAS INTERNAS ****/

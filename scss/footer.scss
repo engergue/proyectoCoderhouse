@@ -1,0 +1,20 @@
+/**** START FOOTER ****/
+
+footer{
+    display: block;
+    padding: 30px 0;
+
+    img{
+        width: 150px;
+        position: relative;
+        left: 50%;
+        transform: translate(-50%,0);
+    }
+
+    p{
+        text-align: center;
+        font-size: 14px;
+    }
+}
+
+/**** END FOOTER ****/

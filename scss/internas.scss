@@ -1,0 +1,80 @@
+/**** START INTERNAL PAGES ****/
+
+#interna{
+    
+    padding: 40px;
+    padding-top: 20%;
+    background-image: url(../images/fondo-interno.png);
+    background-size: cover;
+}
+
+.cuadro-info{
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+}
+
+.interna-imagen{
+    width: 100%;
+
+    img{
+        width: 100%;
+        position: relative;
+        left: 50%;
+        transform: translate(-50%,0);
+        border-radius: 20px;
+    }
+}
+
+.interna-info{
+    width: 100%;
+    padding: 0 30px;
+
+    h2{
+        font-weight: bold;
+        font-size: 35px;
+        text-transform: uppercase;
+        padding-bottom: 30px;
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+
+        ::after {
+            content: '';
+            position: relative;
+            width: 120px;
+            height: 3px;
+            background-color: #3fa9f5;
+        }
+    }
+
+    h4{
+        font-size: 20px;
+        line-height: 2;
+        margin-bottom: 25px;
+        font-weight: 700;
+    }
+
+    span{
+        font-weight: 400;
+    }
+}
+
+.interna-texto{
+    padding: 50px 0;
+    width: 60%;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%,0);
+
+    p{
+        font-weight: normal;
+        font-size: 16px;
+        text-align: justify;
+        line-height: 1.5;
+        margin-bottom: 25px;
+        letter-spacing: 1;
+    }
+}
+
+/**** END INTERNAL PAGES ****/

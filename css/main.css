@@ -259,3 +259,25 @@ footer {
     font-size: 14px; }
 
 /**** END FOOTER ****/
+/**** START MEDIA QUERIES ****/
+@media only screen and (max-width: 640px) {
+  .familia-texto {
+    padding: 0px; }
+    .familia-texto h1 {
+      font-size: 30px; }
+  .interna-info {
+    padding: 0px; }
+  .interna-texto {
+    width: 100%; } }
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  #interna {
+    height: 100vh; } }
+
+@media only screen and (min-width: 1024px) {
+  #conocenos {
+    height: 215vh; }
+  #interna {
+    height: 200vh; } }
+
+/**** END MEDIA QUERIES ****/

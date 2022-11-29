@@ -43,7 +43,7 @@ header{
 .navbar-toggler{
     border: none;
 
-    :focus{
+    &:focus{
         box-shadow: none;
     }
 }

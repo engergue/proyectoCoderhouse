@@ -41,7 +41,7 @@ header {
 
 .navbar-toggler {
   border: none; }
-  .navbar-toggler :focus {
+  .navbar-toggler:focus {
     box-shadow: none; }
 
 .nav-link {
@@ -82,7 +82,7 @@ header {
     display: flex;
     align-items: flex-start;
     flex-direction: column; }
-    .familia-texto h1 ::after {
+    .familia-texto h1::after {
       content: '';
       position: relative;
       width: 120px;
@@ -112,7 +112,7 @@ header {
     display: flex;
     align-items: center;
     flex-direction: column; }
-    #conocenos h2 ::after {
+    #conocenos h2::after {
       content: '';
       position: relative;
       width: 120px;
@@ -136,7 +136,7 @@ header {
   transform: translate(-50%, 0);
   margin: 15px 0;
   /* ANIMACION CARD */ }
-  .card-custom :hover {
+  .card-custom:hover {
     animation-name: moveCard;
     animation-timing-function: ease-in;
     animation-duration: 1200ms; }
@@ -216,7 +216,7 @@ header {
     display: flex;
     align-items: flex-start;
     flex-direction: column; }
-    .interna-info h2 ::after {
+    .interna-info h2::after {
       content: '';
       position: relative;
       width: 120px;

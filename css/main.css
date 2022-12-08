@@ -147,7 +147,7 @@ header {
   50% {
     top: -10px; }
   100% {
-    top: 0; } }
+    top: 0px; } }
 
 .card-custom__img img {
   width: 100%;
